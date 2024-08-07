@@ -1,0 +1,41 @@
+{
+  "reviewCongty": [
+    {
+      "id": "1",
+      "Ten": "hoan",
+      "email": "kjk@gmail.com",
+      "City": "Hoà Bình",
+      "tenCty": "công ty XYZ",
+      "rateBox": "2",
+      "writeReview": " địa chỉ quận hoàng mai đối diện chợ đêm đường lĩnh nam quận hoàng mai hà nội nhà 65.m2 x 4 tầng 6.7 tỷ sân cổng mặt tiền 4m, sâu 16.5m, nhà hướng Đông Nam, tầng 1 sân cổng để đc 10 xe máy .phòng khách rộng cầu thang giữa đến phòng ăn và bếp song đến vệ sinh ô thoáng cuối nhà, tầng 2 có hai phòng ngủ vệ sinh giữa có sân trước trồng cây cảnh ngồi uống nước giải trí , tầng 3 hai phòng nghủ vệ sinh giữa ,tầng 4 có 1 phòng rộng rãi vệ sinh .1 phòng phơi sau nhà., nhà mặt tiền đẹp thoáng và mặt sau nhà là mặt thoáng .Nhà có sổ đỏ chính chủ. Nội thất sịn cầu thang gỗ lim nhà ở khu dân chí cao ăn ninh tốt. Cách mặt phố Lĩnh nam 100m . Cách ngã tư minh khai kim ngưu 500m vào bồ hồ Hoàn Kiếm - Tràng Tiền 4 km, nhà gần trường đại học kinh doanh và công nghệ , đại học bách khoa. đây là ngôi nhà đi vào trung tâm gần nhất.  Nay gia đình có việc cần bán giá bán 6.7 tỷ có thương lượng. Chấp nhận môi giới 0.5%. Ai có nhu cầu xem mua gọi điện trước 15 phút xem có ở nhà không stđ .Cảm ơn, còn là môi giới chấp nhận 0.5%"
+    },
+    {
+      "id": "2bb5"
+    },
+    {
+      "id": "7bb1"
+    },
+    {
+      "id": "4f7b"
+    },
+    {
+      "id": "58f7"
+    },
+    {
+      "id": "c8e3",
+      "Ten": "hoang",
+      "email": "xxx@gmail.com",
+      "City": "Lai Châu",
+      "tenCty": "Công ty ML",
+      "writeReview": "phù hợp cho người chưa có kinh nghiệm như tôi vào làm vì có nhiều người giỏi hỗ trợ nhiệt tình"
+    },
+    {
+      "id": "719c",
+      "Ten": "nam",
+      "email": "namhoang1710@gmail.com",
+      "City": "Điện Biên",
+      "tenCty": "Công ty TNHH một thành",
+      "writeReview": "tôi cảm thấy khá ổn khi làm việc ở đây "
+    }
+  ]
+}

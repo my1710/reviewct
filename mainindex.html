@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trang chủ</title>
+        <script
+  src="https://code.jquery.com/jquery-3.7.1.js"
+  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+  crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" >
+        <link rel="stylesheet" href="./main.css">
+        </head>
+    <body>
+        <header>
+            <a class="logo" href="./mainindex.html" >REVIEW CÔNG TY</a>
+            <nav class="navbar">
+                <div id="underline"></div>
+                <a href="#home">Trang chủ</a>
+                <a href="#high-rate"> Công ty có lượt đánh giá cao nhất</a>
+                <a href="./reviewctytrang2.html"> Đánh giá công ty</a>
+                <a href="./congtynhieudanhgianhat.html"> Xếp hạng lượt đánh giá công ty</a>
+                <a href="./contract.html"> Liên hệ</a>
+            </nav>
+            <script>
+            // điều chỉnh kích thước và di chuyển của phần tử underline
+            // để vừa với kích thước và vj trí của thẻ liên kết <a>
+                // được nhập trong phần tử nav
+                const underline =document.querySelector('#underline');
+                const menu =document.querySelector('nav');
+                menu.addEventListener('click', e=>{
+                    if (e.target.nodeName =='A'){
+                        underline.style.left = e.target.offsetLeft +'px';
+                        underline.style.width = e.target.offsetWidth+'px';
+                    }
+                });
+            </script>
+        </header>
+        <section class="home" id="home">
+            <div class="content">
+                <div  class="anh-dau-trang"><img src="https://i.pinimg.com/564x/6e/b0/01/6eb001c9410f9394421cc55915517b81.jpg"></div>
+                <h3 class="ten-web"> Review công ty</h3>
+                <span class="gioi-thieu">Khi bạn đang tìm kiếm một công ty để hợp tác hoặc gia nhập, việc tìm hiểu và đánh giá công ty đó là một bước vô cùng quan trọng.
+                     Một bài review chi tiết và chân thực không chỉ giúp bạn có cái nhìn tổng quan về môi trường làm việc, văn hóa công ty, chế độ đãi ngộ
+                      mà còn giúp bạn hiểu rõ hơn về sứ mệnh và giá trị mà công ty theo đuổi. Trong bài viết này, chúng tôi sẽ cung cấp một cái nhìn toàn diện
+                       về công ty. Từ những điểm mạnh, điểm yếu, cơ hội thăng tiến cho đến những thử thách mà nhân viên có thể gặp phải. Hy vọng rằng, qua những
+                        bài review này, bạn sẽ có đủ thông tin để đưa ra quyết định đúng đắn và phù hợp nhất cho sự nghiệp của mình.</span>
+                        <div id="rate-now">
+                            <img src="https://i.pinimg.com/236x/13/75/47/1375470033e63e2934f6fd3da03bde2f.jpg" alt="">
+                           <br> <button>
+                                <a href="#" class="btn"> Đánh Giá Ngay </a>
+                            </button>
+                        </div>
+            </div>
+        </section>
+        <section class="high-rate" id="high-rate">
+                    <p>Công ty có nhiều lượt đánh giá nhất</p>
+                    <div class="main-wrapper">
+                    <img href="#" src="https://i.pinimg.com/236x/68/52/d2/6852d20b2049fa4fd8e28aa92e1a4bf6.jpg">
+                   </div> <h1>CÔNG TY ABC</h1>
+                    <div class="congtydanhgianhieunhat">
+                    <span>
+                        Công ty ABC, thành lập vào năm 2000, là một trong những công ty hàng đầu trong lĩnh vực công nghệ thông tin tại Việt Nam. Với hơn 10,000 lượt đánh giá
+                        trên các nền tảng đánh giá uy tín, ABC nổi bật với môi trường làm việc năng động, sáng tạo và chế độ đãi ngộ hấp dẫn. Được biết đến với văn hóa công ty
+                        khuyến khích sự đổi mới và phát triển cá nhân, ABC luôn chú trọng đến việc đào tạo và nâng cao kỹ năng cho nhân viên. Bên cạnh đó, công ty cũng nhận được
+                        nhiều phản hồi tích cực về sự minh bạch trong quản lý và cơ hội thăng tiến rõ ràng. Tuy nhiên, một số nhân viên cũng đã chia sẻ về áp lực công việc cao và
+                        thời gian làm việc căng thẳng. Tổng quan, ABC là lựa chọn lý tưởng cho những ai đam mê công nghệ và mong muốn làm việc trong một môi trường chuyên nghiệp, thử thách.
+                    </span>
+           <script>
+                        anh-ctyABC.onmouseover = () =>
+                        {
+                            anh-ctyABC.style.width='3000px';
+                            status.innerText="Chạm vào ảnh";
+                        }
+                        anh-ctyABC.onmouseleave = () =>
+                        {
+                            anh-ctyABC.style.width='1000px';
+                            status.innerText="Rời tay ra ảnh";
+                        }
+                    </script>
+                 </div>
+        </section>
+        <section class="most-review" id="most-review">
+            <h3> Đánh giá nổi bật nhất </h3>
+            <div class="all">
+                <div class="box">
+                    <div class="stars">
+                        <img id="mostreviewuserimg" src="https://i.pinimg.com/236x/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg" alt="">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="user-info">
+                        <h6>H***trang</h6>
+                        <span>Tôi đã làm việc tại công ty ABC được ba năm và cảm thấy đây thực sự là một môi trường lý tưởng để phát triển sự nghiệp. Môi trường làm việc năng động, sáng tạo cùng với sự hỗ trợ nhiệt tình từ đồng nghiệp đã giúp tôi học hỏi và phát triển nhiều kỹ năng mới. Chế độ đãi ngộ hấp dẫn và các chương trình đào tạo liên tục là điểm cộng lớn. Tuy nhiên, đôi khi áp lực công việc cao và thời gian làm việc kéo dài cũng là một thách thức không nhỏ. Dù vậy, tôi vẫn cảm thấy hài lòng vì những trải nghiệm và cơ hội mà ABC mang lại.</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="stars">
+                        <img id="mostreviewuserimg" src="https://i.pinimg.com/564x/c0/92/01/c092013329f6f6fcd43cd0fafae95109.jpg" alt="">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="user-info">
+                        <h6>H***thang</h6>
+                        <span>Tôi đã làm việc tại công ty ABC được ba năm và cảm thấy đây thực sự là một môi trường lý tưởng để phát triển sự nghiệp. Môi trường làm việc năng động, sáng tạo cùng với sự hỗ trợ nhiệt tình từ đồng nghiệp đã giúp tôi học hỏi và phát triển nhiều kỹ năng mới. Chế độ đãi ngộ hấp dẫn và các chương trình đào tạo liên tục là điểm cộng lớn. Tuy nhiên, đôi khi áp lực công việc cao và thời gian làm việc kéo dài cũng là một thách thức không nhỏ. Dù vậy, tôi vẫn cảm thấy hài lòng vì những trải nghiệm và cơ hội mà ABC mang lại.</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="stars">
+                        <img id="mostreviewuserimg" src="https://i.pinimg.com/564x/df/a3/31/dfa33115b7627f33c0be257363efad98.jpg" alt="">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="user-info">
+                        <h6>ngbi*nn</h6>
+                        <span>Tôi đã làm việc tại công ty ABC được ba năm và cảm thấy đây thực sự là một môi trường lý tưởng để phát triển sự nghiệp. Môi trường làm việc năng động, sáng tạo cùng với sự hỗ trợ nhiệt tình từ đồng nghiệp đã giúp tôi học hỏi và phát triển nhiều kỹ năng mới. Chế độ đãi ngộ hấp dẫn và các chương trình đào tạo liên tục là điểm cộng lớn. Tuy nhiên, đôi khi áp lực công việc cao và thời gian làm việc kéo dài cũng là một thách thức không nhỏ. Dù vậy, tôi vẫn cảm thấy hài lòng vì những trải nghiệm và cơ hội mà ABC mang lại.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contract">
+            <link src="./contract.html">
+        </section>        
+    </body>
+    </html>

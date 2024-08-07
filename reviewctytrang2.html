@@ -1,0 +1,239 @@
+
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trang review</title>
+        <script
+  src="https://code.jquery.com/jquery-3.7.1.js"
+  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+    <body>
+        <div class="user">
+            <label> Điền tên hoặc nickname của bạn vào đây:</label>
+            <input type="text" id="Ten" name="Ten" placeholder="Tên/ nickname của bạn là?"/>
+        </div>
+
+        <div class="user-info">
+            <label> Email:</label>
+            <input type="text" id="email" name="email" placeholder="Email của bạn là?"/>
+        </div>
+
+        <div class="tinh">
+            <label>chọn khu vực </label>
+    <!-- <input type="text" id="City" name="City" placeholder="nhập tỉnh - thành phố" />-->
+            <select id="City" name="City">
+                <option value=""> Tỉnh - Thành phố</option>
+                <option value="Điện Biên">Điện Biên</option>
+                <option value="Yên Bái">Yên Bái</option>
+                <option value="Sơn La">Sơn La</option>
+                <option value="Lào Cai">Lào Cai</option>
+                <option value="Lai Châu">Lai Châu</option>
+                <option value="Hòa Bình">Hòa Bình</option>
+                <option value="Bắc Giang">Bắc Giang</option>
+                <option value="Bắc Kạn">Bắc Kạn</option>
+                <option value="Cao Bằng">Cao Bằng</option>
+                <option value="Hà Giang">Hà Giang</option>
+                <option value="Lạng Sơn">Lạng Sơn</option>
+                <option value="Phú Thọ">Phú Thọ</option>
+                <option value="Quảng Ninh">Quảng Ninh</option>
+                <option value="Thái Nguyên">Thái Nguyên</option>
+                <option value="Tuyên Quang">Tuyên Quang</option>
+                <option value="Bắc Ninh">Bắc Ninh</option>
+                <option value="Hà Nam">Hà Nam</option>
+                <option value="Hà Nội">Thành phố Hà Nội</option>
+                <option value="Hải Dương">Hải Dương</option>
+                <option value="Hải Phòng">Thành phố Hải Phòng</option>
+                <option value="Hưng Yên">Hưng Yên</option>
+                <option value="Nam Định">Nam Định</option>
+                <option value="Ninh Bình">Ninh Bình</option>
+                <option value="Thái Bình">Thái Bình</option>
+                <option value="Vĩnh Phúc">Vĩnh Phúc</option>
+                <option value="Hà Tĩnh">Hà Tĩnh</option>
+                <option value="Nghệ An">Nghệ An</option>
+                <option value="Quảng Bình">Quảng Bình</option>
+                <option value="Quảng Trị">Quảng Trị</option>
+                <option value="Thanh Hóa">Thanh Hóa</option>
+                <option value="Thừa Thiên Huế">Thừa Thiên Huế</option>
+                <option value="Bình Định">Bình Định</option>
+                <option value="Bình Thuận">Bình Thuận</option>
+                <option value="Đà Nẵng">Thành phố Đà Nẵng</option>
+                <option value="Khánh Hòa">Khánh Hòa</option>
+                <option value="Ninh Thuận">Ninh Thuận</option>
+                <option value="Phú Yên">Phú Yên</option>
+                <option value="Quảng Nam">Quảng Nam</option>
+                <option value="Quảng Ngãi">Quảng Ngãi</option>
+                <option value="Đắk Lắk">Đắk Lắk</option>
+                <option value="Đắk Nông">Đắk Nông</option>
+                <option value="Gia Lai">Gia Lai</option>
+                <option value="Kon Tum">Kon Tum</option>
+                <option value="Lâm Đồng">Lâm Đồng</option>
+                <option value="Bà Rịa Vũng Tàu">Bà Rịa Vũng Tàu</option>
+                <option value="Bình Dương">Bình Dương</option>
+                <option value="Bình Phước">Bình Phước</option>
+                <option value="Đồng Nai">Đồng Nai</option>
+                <option value="Hồ Chí Minh">Thành phố Hồ Chí Minh</option>
+                <option value="Tây Ninh">Tây Ninh</option>
+                <option value="An Giang">An Giang</option>
+                <option value="Bạc Liêu">Bạc Liêu</option>
+                <option value="Bến Tre">Bến Tre</option>
+                <option value="Cà Mau">Cà Mau</option>
+                <option value="Cần Thơ">Cần Thơ</option>
+                <option value="Đồng Tháp">Đồng Tháp</option>
+                <option value="Hậu Giang">Hậu Giang</option>
+                <option value="Kiên Giang">Kiên Giang</option>
+                <option value="Long An">Long An</option>
+                <option value="Sóc Trăng">Sóc Trăng</option>
+                <option value="Tiền Giang">Tiền Giang</option>
+                <option value="Trà Vinh">Trà Vinh</option>
+                <option value="Vĩnh Long">Vĩnh Long</option>
+            </select>
+        </div>
+
+        <div class="nameCopany">
+            <label> Điền tên công ty vào đây:</label>
+            <input type="text" id="tenCty" name="tenCty" placeholder="Tên công ty mà bạn muốn đánh giá?"/>
+        </div>
+ <!--        <div class="box"> 
+          <p>Đánh giá</p>
+            <div class="stars">
+                <button>
+                <i class="fa-regular fa-star"></i></button>
+                <button>   <i class="fa-regular fa-star"></i></button>
+                <button>    <i class="fa-regular fa-star"></i></button>
+                <button>    <i class="fa-regular fa-star"></i></button>
+                <button>   <i class="fa-regular fa-star"></i></button>
+            </div>-->
+            
+            <div class="box">
+                <div class="rateBox">
+                    <label> Đánh giá</label>
+                    <script>
+                        const radios = [];
+                        for (let i = 1; i <= 5; i++) {
+                            const radio = document.createElement('input');
+                            radio.type = 'radio';
+                            radio.name = 'rating';
+                            radio.value = i;
+                            radio.addEventListener('click', () => {
+                                switch (parseInt(radio.value)) {
+                                    case 1:
+                                        console.log('Công ty không tốt');
+                                        break;
+                                    case 2:
+                                        console.log('Công ty chưa tốt');
+                                        break;
+                                    case 3:
+                                        console.log('Công ty tạm ổn');
+                                        break;
+                                    case 4:
+                                        console.log('Công ty tốt');
+                                        break;
+                                    case 5:
+                                        console.log('Công ty rất tốt');
+                                        break;
+                                }
+                            });
+                            radios.push(radio);
+                        }
+                        document.write(radios.map(r => r.outerHTML).join(''));
+                    </script>
+                </div>
+            </div>
+
+            <div class="vietReivew">
+                <label> Nêu cảm nghĩ của bạn:</label>
+                <textarea type="text" id="writeReview" name=" writeReview" placeholder="Cảm nghĩ của bạn về công ty bạn đang làm hiện tại như thế nào?"></textarea>
+            </div>
+                <button onclick="dangTin()">Đăng tin</button>
+            <script>
+                function dangTin(){
+                    const Ten =$('#Ten').val();
+                    const email =$('#email').val();
+                    const City =$('#City').val();
+                    const tenCty =$('#tenCty').val(); 
+                    const writeReview =$('#writeReview').val();
+                    
+                    const data ={
+                        Ten: Ten,
+                        email: email,
+                        City: City,
+                        tenCty: tenCty,
+                        writeReview:writeReview
+                    };
+                    $.ajax({
+                        url:'http://localhost:3000/',
+                        type:'POST',
+                        data:  JSON.stringify(data),
+                        contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function(response) {
+                        console.log(response);
+                    },
+                    error: function(xhr, status, error) {
+                        console.log(xhr.responseText);
+                    }
+                });
+         }
+            </script>
+    </body>
+        <script>
+            $(document).ready(function() {
+                $('#btnUpdate').hide();
+                reloadComments();
+                $('#btnSend').click(function() {
+                    var id = $('#id').val();
+                    var email = $('#email').val();
+                    var content = $('#content').val();
+                    $.post("http://localhost:3000/", {id: id, email: email, content: content}, function(result){
+                        $('#comments').append("<li id='comment-" + result.id + "'>" + result.id + "." + result.email + " - " + result.content + " [<a href='#' onclick='deleteComment(" + result.id + ")'>Xoá</a>]</li>");
+                        $('#id').val('');
+                        $('#email').val('');
+                        $('#content').val('');
+                    });
+                });
+                $('#btnUpdate').click(function() {
+                    var id = $('#id').val();
+                    var email = $('#email').val();
+                    var content = $('#content').val();
+                    $.ajax({
+                        url: 'http://localhost:3000/' + id,
+                        type: 'PUT',
+                        data: {id: id, email: email, content: content},
+                        success: function(result) {
+                            reloadComments();
+                        }
+                    });
+                });
+            });
+            function deleteComment(id) {
+                if (confirm("Bạn chắc chắn muốn xoá?")) {
+                    $.ajax({
+                        url: 'http://localhost:3000/' + id,
+                        type: 'DELETE',
+                        success: function(result) {
+                            $('#comment-' + id).remove();
+                        }
+                    });
+                }
+            }
+            function editComment(id) {
+                $.get("http://localhost:3000/" + id, function(data, status){
+                    $('#id').val(data.id);
+                    $('#email').val(data.email);
+                    $('#content').val(data.content);
+                    $('#btnUpdate').show();
+                });
+            }
+            function reloadComments() {
+                $('#comments').empty();
+                $.get("http://localhost:3000/", function(data, status){
+                    for (var i = 0; i < data.length; i++) {
+                        $('#comments').append("<li id='comment-" + data[i].id + "'>" + data[i].id + "." + data[i].email + " - " + data[i].content + " [<a href='#' onclick='deleteComment(" + data[i].id + ")'>Xoá</a>]" + " [<a href='#' onclick='editComment(" + data[i].id + ")'>Sửa</a>]" + "</li>");
+                    }
+                });
+            }
+        </script>
+    </html>
